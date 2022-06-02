@@ -1,0 +1,404 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+* ul {
+    list-style: none;
+
+}
+
+.nav-bar {
+    width: 100%;
+    max-width: 85em;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    padding: 2em;
+
+}
+
+.nav-content ul {
+    width: 100%;
+    max-width: 15em;
+    display: flex;
+    justify-content: flex-end;
+    gap: 1em;
+    align-items: center;
+}
+
+.logo {
+    width: 100%;
+    max-width: 8em;
+}
+
+.merger-1 {
+    width: 100%;
+    max-width: 85em;
+    padding: 1.5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 2em;
+}
+
+.wrapper-1 {
+    width: 100%;
+    max-width: 40em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2em;
+
+
+}
+
+.box-1-text {
+    width: 100%;
+    max-width: 40em;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+
+.illustration-1 {
+    width: 100%;
+    max-width: 40em;
+}
+
+.email-div {
+    width: 100%;
+    max-width: 40em;
+    display: flex;
+    justify-content: flex-start;
+    gap: 1em;
+}
+
+.email-div input {
+    width: 100%;
+    max-width: 25em;
+    border-radius: 0.4em;
+}
+
+.email-div button {
+    width: 100%;
+    max-width: 15em;
+    padding: 0.8em;
+    color: #fff;
+    background-color: hsl(224, 93%, 58%);
+    border: none;
+    border-radius: 0.4em;
+}
+
+.curve {
+    width: 100%;
+    margin-bottom: -0.3em;
+    
+}
+
+.merger-2 {
+    background-color: hsl(240, 75%, 98%);
+    width: 100%;
+    max-width: 85em;
+    padding: 1.5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.box-2-text {
+    width: 100%;
+    max-width: 40em;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    padding-bottom: 3em;
+}
+
+.box-2-text p,
+.box-1-text p,
+.third-box-text p {
+    line-height: 1.5em;
+}
+
+.link {
+    width: 100%;
+    max-width: 12em;
+    display: flex;
+    align-items: center;
+    gap: 0.1em;
+    margin-top: -1em;
+    margin-bottom: 1em;    
+}
+
+.link a{
+    color: hsl(170, 45%, 43%);
+}
+
+.link img {
+    width: 100%;
+    max-width: 1.125em;
+    padding-top: 0.2em;
+}
+
+.quote-div {
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8em;
+    max-width: 20em;
+    padding: 1em;
+    border-radius: 0.5em;
+    box-shadow: hsl(0, 0%, 75%) 0.2em 0.5em 0.5em 0;
+}
+
+.quote-div .quote {
+    width: 100%;
+    max-width: 1em;
+}
+
+.name-div {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.name-div img {
+    border-radius: 50%;
+    width: 100%;
+    max-width: 2.5em;
+}
+
+.illustration-2 {
+    width: 100%;
+    max-width: 35em;
+}
+
+.third-box {
+    width: 100%;
+    max-width: 85em;
+    margin: auto;
+    background-color: hsl(238, 22%, 44%);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2em;
+    padding: 3em 1.5em;
+}
+
+.third-box-text {
+    width: 100%;
+    max-width: 35em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.third-box-text h2 {
+    word-spacing: 0.1em;
+}
+
+.input-div {
+    width: 100%;
+    max-width: 30em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.input-div input {
+    width: 100%;
+    max-width: 30em;
+    padding: 1em;
+    border-radius: 0.4em;
+    border: none;
+
+}
+
+.input-div button {
+    color: #fff;
+    background-color: hsl(224, 93%, 58%);
+    border: none;
+    font-weight: 400;
+    padding: 0.8em;
+    width: 100%;
+    max-width: 12em;
+    border-radius: 0.4em;
+}
+
+.fourth-box {
+    width: 100%;
+    max-width: 85em;
+    background-color: hsl(243, 87%, 12%);
+    color: #fff;
+    padding: 3em 1em;
+    margin: auto;
+
+}
+
+.closing-about {
+    width: 100%;
+    max-width: 50em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.phone-email-div,
+.footer-div,
+.contact-us {
+    line-height: 1.8em;
+}
+
+.logo-div .footer-logo {
+    width: 100%;
+    max-width: 8em;
+    margin-bottom: 1em;
+}
+.box-1-text h1,
+.box-2-text h1,
+.third-box-text h2{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+.input-div,
+.email-div,
+.box-1-text p,
+.box-2-text p,
+.third-box-text p,
+.closing-about,
+.nav-content ul{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+
+    .nav-bar {
+        padding: 0.5em 0;
+        padding: 2em;
+    }
+
+
+    .logo {
+        width: 100%;
+        max-width: 5em;
+    }
+
+    .merger-1 {
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+        gap: 2em;
+    }
+
+    .box-1-text h1 {
+        font-size: 1.6em;
+    }
+
+    .box-1-text p {
+        width: 90%;
+        margin: auto;
+    }
+
+    .email-div {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 0.5em;
+    }
+
+    .email-div input {
+        width: 100%;
+        max-width: 100%;
+        padding: 0.8em;
+    }
+
+    .email-div button {
+        width: 100%;
+        max-width: 100%;
+
+    }
+
+    .curve {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .merger-2 {
+        text-align: center;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 2em;
+    }
+
+    .box-2-text h1 {
+        font-size: 1.2em;
+    }
+
+    .link {
+        text-align: center;
+        margin: auto;
+
+    }
+
+    .quote-div {
+        text-align: left;
+        margin: auto;
+
+    }
+
+    .third-box {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .third-box-text {
+        text-align: center;
+        margin-bottom: -1em;
+    }
+
+    .input-div {
+        display: flex;
+        flex-direction: column;
+        padding: 0em 2em 2em 2em;
+    }
+
+    .input-div input,
+    .input-div button {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .logo-div .footer-logo {
+        padding-left: 1em;
+        width: 100%;
+        max-width: 10em;
+    }
+
+    .closing-about {
+        display: flex;
+        flex-direction: column;
+        gap: 3em;
+        align-items: flex-start;
+        padding-left: 1em;
+    }
+
+}
