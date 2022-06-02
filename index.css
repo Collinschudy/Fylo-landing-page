@@ -26,13 +26,13 @@
     max-width: 15em;
     display: flex;
     justify-content: flex-end;
-    gap: 1em;
+    gap: 2em;
     align-items: center;
 }
 
 .logo {
     width: 100%;
-    max-width: 8em;
+    max-width: 5em;
 }
 
 .merger-1 {
@@ -287,10 +287,11 @@
 @media screen and (max-width: 768px) {
 
     .nav-bar {
+        width: 100%;
         padding: 0.5em 0;
         padding: 2em;
     }
-
+    .nav-content ul
 
     .logo {
         width: 100%;
